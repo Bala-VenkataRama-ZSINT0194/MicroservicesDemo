@@ -1,0 +1,98 @@
+# Git ignore file 
+# ============================
+#   .NET / ASP.NET Core
+# ============================
+
+# Build results
+**/bin/
+**/obj/
+**/.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+.vs/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+_Migrations/
+**/Migrations/
+*.dbmdl
+
+# Logs
+*.log
+
+# Environment files
+*.env
+*.env.development
+*.env.production
+*.env.local
+appsettings.Development.json
+appsettings.Local.json
+
+# ============================
+#   React / Node.js
+# ============================
+
+# Dependency folders
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment
+.env*
+!.env.example
+
+# React Cache
+.cache/
+.next/
+coverage/
+
+# Editor artifacts
+*.swp
+*.swo
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# ============================
+#  IDE / Editor Settings
+# ============================
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# ============================
+#  Misc
+# ============================
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.orig
+
+# Uploads (if any)
+wwwroot/uploads/
